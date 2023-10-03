@@ -1,9 +1,51 @@
-# RUBY NEDİR ? 
 
-Ruby, genellikle web geliştirme için kullanılan yorumlanmış nesne yönelimli bir programlama dilidir. Ayrıca düz metin ve serileştirilmiş dosyaları işlemek veya sistem görevlerini yönetmek için birçok komut dosyası oluşturma özelliği de sunar. Basit, anlaşılır ve genişletilebilir.
+# Yaş Hesaplama Programı 
+Bu Ruby programı, kullanıcının adını, soyadını ve doğum tarihini girdikten sonra kullanıcının yaşını , kaç gündür hayatta olduğunu ve doğduğu günü hesaplar.
 
-# RUBY KURULUM ?
+## Kullanım
 
-Ruby indirme dosyası aşağıdaki linktedir.
+Programı çalıştırmak için aşağıdaki adımları izleyin:
 
-[https://www.ruby-lang.org/en/downloads](https://www.ruby-lang.org/en/downloads)
+1. Ruby'nin bilgisayarınızda yüklü olduğundan emin olun. Ruby'yi yüklemek için [Ruby'nin resmi web sitesini](https://www.ruby-lang.org/en/documentation/installation/) ziyaret edebilirsiniz.
+
+2. Terminal veya komut istemcisini açın.
+
+3. Bu proje dizinine gitmek için `cd` komutunu kullanın. Örneğin:
+
+   ```shell
+   cd /path/to/your/project/directory
+   ```
+
+4. Programı çalıştırmak için aşağıdaki komutu kullanın:
+
+   ```shell
+   ruby main.rb
+   ```
+
+5. Program, sırasıyla ad, soyad ve doğum tarihi bilgilerini girmenizi isteyecektir. Bilgileri girdikten sonra sonuçları görüntüleyecektir.
+
+## Örnek Çıktı
+
+Programın nasıl çalıştığını anlamak için aşağıdaki örnek çıktıyı kullanabilirsiniz:
+
+```
+Lütfen adınızı ve soyadınızı giriniz:
+Cristiano Ronaldo
+Lütfen doğum tarihinizi 'gün,ay,yıl' şeklinde giriniz:
+05.02.1985
+Merhaba Cristiano Ronaldo
+Sen doğalı tam 14120 gün geçti
+Yaşın şuan 38 ve Salı günü doğdun.
+```
+
+## Katkıda Bulunma
+
+Bu proje açık kaynaklıdır ve katkılarınızı bekliyoruz. Katkıda bulunmak veya sorunları raporlamak için GitHub deposunu ziyaret edebilirsiniz: [GitHub Repo](https://github.com/kullanici/adresi)
+
+## Lisans
+
+Bu program MIT lisansı altında dağıtılmaktadır. Daha fazla bilgi için [Lisans Dosyası](LICENSE) sayfasına bakınız.
+
+---
+
+Bu README dosyasını projenizin kök dizinine ekleyerek kullanıcıların programınızı daha iyi anlamalarına yardımcı olabilirsiniz. Ayrıca, gerektiğinde programın çalışma mantığını ve kullanımını daha ayrıntılı olarak açıklayan belgeler eklemek de faydalı olabilir.
