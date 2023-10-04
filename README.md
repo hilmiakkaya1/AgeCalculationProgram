@@ -1,51 +1,41 @@
 
-# Yaş Hesaplama Programı 
-Bu Ruby programı, kullanıcının adını, soyadını ve doğum tarihini girdikten sonra kullanıcının yaşını , kaç gündür hayatta olduğunu ve doğduğu günü hesaplar.
+# Age Calculation Program 
+This Ruby program, after entering the user's first name, last name and date of birth, calculates the user's age, the number of days the user has been alive and the day the user was born.
 
-## Kullanım
+## Usage
 
-Programı çalıştırmak için aşağıdaki adımları izleyin:
+Follow the steps below to run the program:
 
-1. Ruby'nin bilgisayarınızda yüklü olduğundan emin olun. Ruby'yi yüklemek için [Ruby'nin resmi web sitesini](https://www.ruby-lang.org/en/documentation/installation/) ziyaret edebilirsiniz.
+1. Make sure Ruby is installed on your computer. You can visit [Ruby's official website to install](https://www.ruby-lang.org/en/documentation/installation/) Ruby.
 
-2. Terminal veya komut istemcisini açın.
+2. Open the terminal or command client.
 
-3. Bu proje dizinine gitmek için `cd` komutunu kullanın. Örneğin:
+3. Use the cd command to navigate to this project directory. For example:
 
    ```shell
    cd /path/to/your/project/directory
    ```
 
-4. Programı çalıştırmak için aşağıdaki komutu kullanın:
+4. Use the following command to run the program::
 
    ```shell
    ruby main.rb
    ```
 
-5. Program, sırasıyla ad, soyad ve doğum tarihi bilgilerini girmenizi isteyecektir. Bilgileri girdikten sonra sonuçları görüntüleyecektir.
+5. The program will ask you to enter first name, last name and date of birth respectively. After entering the information, it will display the results.
 
-## Örnek Çıktı
+## Sample Output
 
-Programın nasıl çalıştığını anlamak için aşağıdaki örnek çıktıyı kullanabilirsiniz:
+You can use the sample output below to understand how the program works:
 
 ```
-Lütfen adınızı ve soyadınızı giriniz:
+Please enter your first and last name:
 Cristiano Ronaldo
-Lütfen doğum tarihinizi 'gün,ay,yıl' şeklinde giriniz:
+Please enter your date of birth as 'day, month, year':
 05.02.1985
-Merhaba Cristiano Ronaldo
-Sen doğalı tam 14120 gün geçti
-Yaşın şuan 38 ve Salı günü doğdun.
+Hello Cristiano Ronaldo
+It's been 14120 days since you were born
+Your age is now 38 and you were born on Tuesday.
 ```
 
-## Katkıda Bulunma
 
-Bu proje açık kaynaklıdır ve katkılarınızı bekliyoruz. Katkıda bulunmak veya sorunları raporlamak için GitHub deposunu ziyaret edebilirsiniz: [GitHub Repo](https://github.com/kullanici/adresi)
-
-## Lisans
-
-Bu program MIT lisansı altında dağıtılmaktadır. Daha fazla bilgi için [Lisans Dosyası](LICENSE) sayfasına bakınız.
-
----
-
-Bu README dosyasını projenizin kök dizinine ekleyerek kullanıcıların programınızı daha iyi anlamalarına yardımcı olabilirsiniz. Ayrıca, gerektiğinde programın çalışma mantığını ve kullanımını daha ayrıntılı olarak açıklayan belgeler eklemek de faydalı olabilir.
